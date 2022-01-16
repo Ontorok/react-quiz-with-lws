@@ -1,0 +1,171 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 30px;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+}
+
+.brand a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand a img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.account span {
+  margin-right: 10px;
+}
+
+.info {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.error {
+  background-color: var(--dangerRed);
+  padding: 0.6rem 1.2rem;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.illustration {
+  padding: 2rem;
+}
+
+.illustration img {
+  max-width: 80%;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem 0;
+}
+
+.form .textInput {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  padding: 2px;
+}
+.form .textInput input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form .textInput span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form label {
+  margin-top: 1rem;
+}
+
+.form .button {
+  height: 44px;
+  margin-top: 2rem;
+}
+
+.button {
+  width: 100%;
+  background: var(--successGreen);
+  color: var(--fontPrimary);
+  padding: 0.6rem 1.2rem;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s background ease;
+}
+
+.button:hover {
+  background: var(--fontPrimary);
+}
+.button:hover span {
+  color: #fff;
+}
+
+.answers {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  gap: 10px;
+  margin: 2rem 0;
+  grid-auto-flow: column;
+}
+
+.answer {
+  width: 100%;
+  height: 60px;
+  background: var(--questionBG);
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  padding: 0 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.answer:hover {
+  background: #d3d7e4;
+}
+
+.answer input {
+  margin-right: 15px;
+}
+
+.correct {
+  background: var(--successGreen) !important;
+  font-weight: 600;
+}
+
+.wrong {
+  background: var(--dangerRed) !important;
+  font-weight: 600;
+}

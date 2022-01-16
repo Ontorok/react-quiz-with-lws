@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Quiz App</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="index.html">
+          <img src="./images/logo-bg.png" alt="lwslogo" />
+          <h3>Learn with Sumit</h3>
+        </a>
+      </div>
+      <div class="account">
+        <span class="material-icons-outlined" title="Account">
+          account_circle
+        </span>
+        <a href="#">Signup</a>
+        <!-- <span class="material-icons-outlined" title="Logout"> logout </span> -->
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="container">
+        <h1>Login to your account</h1>
+        <div class="column">
+          <div class="illustration">
+            <img src="./images/login.svg" alt="Login" />
+          </div>
+          <form action="#" class="login form" autocomplete="off">
+            <div class="textInput">
+              <input type="text" placeholder="Enter email" />
+              <span class="material-icons-outlined"> alternate_email </span>
+            </div>
+            <div class="textInput">
+              <input type="text" placeholder="Enter password" />
+              <span class="material-icons-outlined"> lock </span>
+            </div>
+
+            <label>
+              <input type="checkbox" />
+              <span>I agree to the Terms & Conditions</span>
+            </label>
+
+            <div class="button">
+              <span>Submit now</span>
+            </div>
+
+            <div class="info">
+              Don't have an account? <a href="signup.html">Signup</a> instead.
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
