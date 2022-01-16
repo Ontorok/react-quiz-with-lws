@@ -1,0 +1,9 @@
+.brand a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand a img {
+  width: 32px;
+  margin-right: 10px;
+}
