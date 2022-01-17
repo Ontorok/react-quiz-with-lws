@@ -22,19 +22,35 @@ body {
   background-color: var(--bodyBackground);
 }
 
-main {
-  width: 100%;
-  padding: 4rem 0;
+a {
+  text-decoration: none;
+  color: blue;
 }
 
-a {
-  color: blue;
-  text-decoration: none;
-}
 h4 {
   color: #7c83a7;
   font-weight: 600;
   border-bottom: 1px solid #e5e5e5;
   padding: 10px 0;
   margin-bottom: 10px;
+}
+
+.info {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.error {
+  background-color: var(--dangerRed);
+  padding: 0.6rem 1.2rem;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }

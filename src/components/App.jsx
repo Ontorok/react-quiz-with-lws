@@ -1,10 +1,10 @@
 import "../styles/App.css";
 import Layout from "./Layout";
-import Home from "./pages/Home";
+import Component from "./pages/SignUp";
 function App() {
   return (
     <Layout>
-      <Home />
+      <Component />
     </Layout>
   );
 }
