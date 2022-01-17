@@ -1,6 +1,6 @@
 import "../styles/App.css";
 import Layout from "./Layout";
-import Component from "./pages/Quiz";
+import Component from "./pages/Result";
 function App() {
   return (
     <Layout>
