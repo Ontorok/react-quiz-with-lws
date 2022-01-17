@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "../styles/ProgessBar.module.css";
 
 const ProgessBar = () => {
@@ -14,11 +15,11 @@ const ProgessBar = () => {
         </div>
       </div>
 
-      <a href="result.html">
+      <Link to="/result">
         <div className={classes.nextButton}>
           <span className="material-icons-outlined"> arrow_forward </span>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
