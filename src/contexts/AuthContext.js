@@ -6,10 +6,14 @@ import {
     signOut,
     updateProfile
 } from 'firebase/auth';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import '../firebase';
 
 export const AuthContext = React.createContext();
+
+export function useAuth() {
+    return useContext(AuthContext)
+}
 
 const AuthProvider = (props) => {
     const { children } = props;
@@ -29,6 +33,7 @@ const AuthProvider = (props) => {
 
     // signup function
     async function signup(email, password, username) {
+
         const auth = getAuth();
         await createUserWithEmailAndPassword(auth, email, password)
 

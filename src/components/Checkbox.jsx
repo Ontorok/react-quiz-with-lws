@@ -3,8 +3,8 @@ import React from "react";
 const Checkbox = (props) => {
   const { text, ...rest } = props;
   return (
-    <label {...rest}>
-      <input type="checkbox" />
+    <label>
+      <input type="checkbox" {...rest} />
       <span>{text}</span>
     </label>
   );
