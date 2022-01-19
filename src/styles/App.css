@@ -54,3 +54,6 @@ h4 {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
