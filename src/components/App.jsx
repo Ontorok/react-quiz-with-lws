@@ -20,8 +20,8 @@ function App() {
             <PublicRoute exact path="/signup" component={SignUp} />
             <PublicRoute exact path="/login" component={Login} />
 
-            <PrivateRoute exact path="/quiz" component={Quiz} />
-            <PrivateRoute exact path="/result" component={Result} />
+            <PrivateRoute exact path="/quiz/:videoId" component={Quiz} />
+            <PrivateRoute exact path="/result/:videoId" component={Result} />
           </Switch>
         </Layout>
       </AuthProvider>

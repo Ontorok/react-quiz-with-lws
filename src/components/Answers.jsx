@@ -2,32 +2,20 @@ import React from "react";
 import classes from "../styles/Answers.module.css";
 import Checkbox from "./Checkbox";
 
-const Answers = () => {
+const Answers = ({ answers, onChangeAnser }) => {
   return (
     <div className={classes.answers}>
-      <Checkbox className={classes.answer} text="Test answer" />
+      {answers.map((ans, index) => (
+        <Checkbox
+          key={ans.id}
+          className={`${classes.answer}`}
+          text={ans.title}
+          checked={ans.checked}
+          onChange={(e) => onChangeAnser(e, index)}
+        />
+      ))}
 
-      <Checkbox className={classes.answer} text="Test answer" />
-
-      <Checkbox className={classes.answer} text="Test answer" />
-
-      <Checkbox
-        className={`${classes.answer} ${classes.wrong}`}
-        text="Test answer"
-      />
-
-      <Checkbox className={classes.answer} text="Test answer" />
-
-      <Checkbox className={classes.answer} text="Test answer" />
-
-      <Checkbox
-        className={`${classes.answer} ${classes.correct}`}
-        text="Test answer"
-      />
-
-      <Checkbox className={classes.answer} text="Test answer" />
-      <Checkbox className={classes.answer} text="Test answer" />
-      <Checkbox className={classes.answer} text="Test answer" />
+      {/* ${classes.wrong} ${classes.correct} */}
     </div>
   );
 };

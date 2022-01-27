@@ -53,15 +53,17 @@
 .tooltip {
   position: absolute;
   top: -70px;
-  left: calc(70% - 65px);
-  width: 130px;
+  width: 150px;
   background-color: var(--fontPrimary);
   color: #fff;
   padding: 0.8rem 1rem;
   font-size: 12px;
   font-weight: 600;
   border-radius: 8px;
+  text-align: center;
+  transition: right 0.5s ease;
 }
+
 .tooltip::after {
   position: absolute;
   content: "";
@@ -88,6 +90,7 @@
   background: var(--fontPrimary);
   border-radius: 20px;
   position: relative;
+  transition: width 0.5s ease;
 }
 .progress::after {
   content: "";
