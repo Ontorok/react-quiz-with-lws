@@ -1,23 +1,38 @@
-import React from "react";
+import React, { Fragment } from "react";
 import classes from "../styles/Answers.module.css";
 import Checkbox from "./Checkbox";
 
-const Answers = ({ answers, onChangeAnser }) => {
+export default function Answers({ options = [], onChangeAnswer, useAnalysis }) {
   return (
     <div className={classes.answers}>
-      {answers.map((ans, index) => (
-        <Checkbox
-          key={ans.id}
-          className={`${classes.answer}`}
-          text={ans.title}
-          checked={ans.checked}
-          onChange={(e) => onChangeAnser(e, index)}
-        />
+      {options.map((option, index) => (
+        <Fragment key={index}>
+          {useAnalysis ? (
+            <Checkbox
+              key={index}
+              className={classes.answer}
+              text={option.title}
+              value={index}
+              checked={option.checked}
+              onChange={(e) => onChangeAnswer(e, index)}
+            />
+          ) : (
+            <Checkbox
+              key={index}
+              className={`${classes.answer} ${
+                option.correct
+                  ? classes.correct
+                  : option.checked
+                  ? classes.wrong
+                  : null
+              } `}
+              text={option.title}
+              defaultChecked={option.checked}
+              disabled
+            />
+          )}
+        </Fragment>
       ))}
-
-      {/* ${classes.wrong} ${classes.correct} */}
     </div>
   );
-};
-
-export default Answers;
+}

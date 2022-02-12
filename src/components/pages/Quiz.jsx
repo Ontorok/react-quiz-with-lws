@@ -111,8 +111,9 @@ const Quiz = () => {
           <h1>{state.qna[currentQuestion].title}</h1>
           <h4>Question can have multiple answers</h4>
           <Answers
-            answers={state.qna[currentQuestion].options}
-            onChangeAnser={onChangeAnswer}
+            useAnalysis
+            options={state.qna[currentQuestion].options}
+            onChangeAnswer={onChangeAnswer}
           />
           <ProgessBar
             next={nextQuestion}
