@@ -1,8 +1,8 @@
 import React from "react";
-import Videos from "../Videos";
+import Instructor from "../Instructor";
 
 const Home = () => {
-  return <Videos />;
+  return <Instructor />;
 };
 
 export default Home;
