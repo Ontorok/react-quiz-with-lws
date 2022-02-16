@@ -1,7 +1,7 @@
 import { getDatabase, ref, set } from "firebase/database";
 import _ from "lodash";
 import React, { useEffect, useReducer, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useLocation, useParams } from "react-router-dom";
 import { Fragment } from "react/cjs/react.production.min";
 import { v4 as uuid } from "uuid";
 import { useAuth } from "../../hooks/useAuth";
@@ -48,6 +48,10 @@ const Quiz = () => {
   const { videoId } = useParams();
   const { authUser } = useAuth();
   const history = useHistory();
+  const {
+    state: { videoTitle },
+  } = useLocation();
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const { loading, error, questions } = useQuestions(videoId);
 
@@ -121,7 +125,7 @@ const Quiz = () => {
             submit={submit}
             progress={percentage}
           />
-          <Miniplayer />
+          <Miniplayer videoId={videoId} title={videoTitle} />
         </Fragment>
       )}
 

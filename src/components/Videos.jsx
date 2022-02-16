@@ -21,7 +21,15 @@ const Videos = () => {
             return noq === 0 ? (
               <Video title={title} id={youtubeID} noq={noq} key={youtubeID} />
             ) : (
-              <Link to={`/quiz/${youtubeID}`} key={youtubeID}>
+              <Link
+                to={{
+                  pathname: `/quiz/${youtubeID}`,
+                  state: {
+                    videoTitle: title,
+                  },
+                }}
+                key={youtubeID}
+              >
                 <Video title={title} id={youtubeID} noq={noq} />
               </Link>
             );
