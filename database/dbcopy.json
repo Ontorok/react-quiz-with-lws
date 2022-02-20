@@ -188,66 +188,66 @@
       "1": {
         "youtubeID": "8Oar5u4RHXk",
         "title": "#05 Project 4 - Generate A Dynamic Toast Message | JS DOM Projects in Bangla",
-        "noq": 0
+        "noq": 4
       },
       "2": {
         "youtubeID": "tFEIlhYdtnQ",
         "title": "#05.2 CSS Absolute Length Units | অ্যাবসল্যুট লেন্থ ইউনিট",
-        "noq": 0
+        "noq": 4
       },
       "3": {
         "youtubeID": "zSlSfqQTeFE",
         "title": "গল্পে গল্পে ক্লোজার | JavaScript Closure Easy Explanation",
-        "noq": 0
+        "noq": 4
       },
       "4": {
         "youtubeID": "bqx546w2j04",
         "title": "গল্পে গল্পে জাভাস্ক্রিপ্ট স্কোপ চেইন | JavaScript Scope Chain in 3 Minutes",
-        "noq": 0
+        "noq": 4
       }
     },
     "ins103": {
       "1": {
         "youtubeID": "8WGMULjnR94",
         "title": "#38 DOM traversing & manipulating",
-        "noq": 0
+        "noq": 4
       },
       "2": {
-        "youtubeID": "tFEIlhYdtnQ",
+        "youtubeID": "JM-KjAq9kQY",
         "title": "#08 Enum Data Type",
-        "noq": 0
+        "noq": 4
       },
       "3": {
         "youtubeID": "y3t44Vjga0A",
         "title": "#32 Bootstrap5 Bangla: series finale",
-        "noq": 0
+        "noq": 4
       },
       "4": {
         "youtubeID": "GPW3CJguUok",
         "title": "#23 fetching data with useEffect hook (part-2)",
-        "noq": 0
+        "noq": 4
       }
     },
     "ins104": {
       "1": {
         "youtubeID": "ZnrLakrduRE",
         "title": "#21 Pseudo Elements Explained | CSS3 Bangla Tutorial",
-        "noq": 0
+        "noq": 4
       },
       "2": {
         "youtubeID": "GhvjGMhdM0k",
         "title": "#19 Media Query Explained in Bangla | CSS3 For Beginners",
-        "noq": 0
+        "noq": 4
       },
       "3": {
         "youtubeID": "PRgtnSJJ6qs",
         "title": "#18 CSS Transition | CSS3 For Beginners",
-        "noq": 0
+        "noq": 4
       },
       "4": {
         "youtubeID": "OuDLOnq6YeY",
         "title": "#13 CSS Lists and Dropdown Menu | CSS3 For Beginners",
-        "noq": 0
+        "noq": 4
       }
     }
   },
@@ -1255,6 +1255,870 @@
             },
             {
               "title": "ES2020"
+            }
+          ]
+        }
+      ]
+    },
+    "8Oar5u4RHXk": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "tFEIlhYdtnQ": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "zSlSfqQTeFE": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "bqx546w2j04": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "8WGMULjnR94": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "JM-KjAq9kQY": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "y3t44Vjga0A": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "GPW3CJguUok": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "ZnrLakrduRE": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "GhvjGMhdM0k": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "PRgtnSJJ6qs": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "OuDLOnq6YeY": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets"
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size"
+            },
+            {
+              "title": "None of the above"
             }
           ]
         }
@@ -2314,6 +3178,918 @@
             },
             {
               "title": "ES2020"
+            }
+          ]
+        }
+      ]
+    },
+    "8Oar5u4RHXk": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "tFEIlhYdtnQ": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "zSlSfqQTeFE": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "bqx546w2j04": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "8WGMULjnR94": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "JM-KjAq9kQY": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "y3t44Vjga0A": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "GPW3CJguUok": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "ZnrLakrduRE": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "GhvjGMhdM0k": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "PRgtnSJJ6qs": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        }
+      ]
+    },
+    "OuDLOnq6YeY": {
+      "questions": [
+        {
+          "title": "CSS stands for: -",
+          "options": [
+            {
+              "title": "Cascade style sheets"
+            },
+            {
+              "title": "Color and style sheets"
+            },
+            {
+              "title": "Cascading style sheets",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the background color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color"
+            },
+            {
+              "title": "background-color",
+              "correct": true
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The property in CSS used to change the text color of an element is -",
+          "options": [
+            {
+              "title": "bgcolor"
+            },
+            {
+              "title": "color",
+              "correct": true
+            },
+            {
+              "title": "background-color"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "The CSS property used to control the element's font-size is -",
+          "options": [
+            {
+              "title": "text-style"
+            },
+            {
+              "title": "text-size"
+            },
+            {
+              "title": "font-size",
+              "correct": true
+            },
+            {
+              "title": "None of the above"
             }
           ]
         }
