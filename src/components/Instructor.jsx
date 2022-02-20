@@ -1,26 +1,25 @@
 import React from "react";
-import sumit from "../assets/images/sumit-saha.jpg";
+import { Link } from "react-router-dom";
+import useInstructors from "../hooks/useInstructors";
 import classes from "../styles/Instructor.module.css";
 
 const Instructor = () => {
+  const { loading, error, instructors } = useInstructors();
+  console.log(instructors);
   return (
     <div className={classes.instructors}>
-      <div className={classes.instructor}>
-        <img src={sumit} alt="sumit saha" />
-        <p>Sumit Saha</p>
-      </div>
-      <div className={classes.instructor}>
-        <img src={sumit} alt="H M Nayeem" />
-        <p>H M Nayeem</p>
-      </div>
-      <div className={classes.instructor}>
-        <img src={sumit} alt="Anisul Haque" />
-        <p>Anisul Haque</p>
-      </div>
-      <div className={classes.instructor}>
-        <img src={sumit} alt="Kudvenkat" />
-        <p>Kudvenkat</p>
-      </div>
+      {instructors.map((ins) => (
+        <Link to={`/videos/${ins.instructorId}`}>
+          <div className={classes.instructor} key={ins.instructorId}>
+            <img src={ins.img} alt={ins.name} />
+            <p>{ins.name}</p>
+          </div>
+        </Link>
+      ))}
+
+      {!loading && instructors.length === 0 && <div>No Data found</div>}
+      {error && <div>Therer was an error</div>}
+      {loading && <div>Loading....</div>}
     </div>
   );
 };

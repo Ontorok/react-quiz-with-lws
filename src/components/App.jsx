@@ -9,6 +9,7 @@ import Result from "./pages/Result";
 import SignUp from "./pages/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
+import Videos from "./Videos";
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
             <PublicRoute exact path="/signup" component={SignUp} />
             <PublicRoute exact path="/login" component={Login} />
 
+            <PrivateRoute
+              exact
+              path="/videos/:instructorId"
+              component={Videos}
+            />
             <PrivateRoute exact path="/quiz/:videoId" component={Quiz} />
             <PrivateRoute exact path="/result/:videoId" component={Result} />
           </Switch>

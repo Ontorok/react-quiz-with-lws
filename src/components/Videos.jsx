@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import useVideoList from "../hooks/useVideoList";
 import Video from "./Video";
 
 const Videos = () => {
   const [page, setPage] = useState(1);
-  const { loading, error, videos, hasMore } = useVideoList(page);
+  const { instructorId } = useParams();
+
+  const { loading, error, videos, hasMore } = useVideoList({
+    page,
+    instructorId,
+  });
+  console.log(videos);
 
   return (
     <div>

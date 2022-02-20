@@ -1,5 +1,9 @@
 {
   "rules": {
+    "instructors": {
+      ".read": true,
+      ".write": false
+    },
     "videos": {
       ".read": true,
       ".write": false
