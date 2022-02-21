@@ -1,15 +1,18 @@
 import React, { useMemo } from "react";
-import successImg from "../assets/images/success.png";
+import bad from "../assets/images/badge/bad.png";
+import best from "../assets/images/badge/best.png";
+import good from "../assets/images/badge/good.png";
+import successImg from "../assets/images/badge/success.png";
 import classes from "../styles/Summary.module.css";
 
 const Summary = ({ score, noq }) => {
   const getKeyword = useMemo(() => {
     if ((score / (noq * 5)) * 100 < 50) {
-      return successImg;
+      return bad;
     } else if ((score / (noq * 5)) * 100 < 75) {
-      return successImg;
+      return good;
     } else if ((score / (noq * 5)) * 100 < 100) {
-      return successImg;
+      return best;
     } else {
       return successImg;
     }
