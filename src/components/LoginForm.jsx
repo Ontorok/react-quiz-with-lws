@@ -6,8 +6,8 @@ import Form from "./Form";
 import TextInput from "./TextInput";
 
 const initialState = {
-  email: "nishgro@gmail.com",
-  password: "nasir123",
+  email: "",
+  password: "",
 };
 
 const LoginForm = () => {

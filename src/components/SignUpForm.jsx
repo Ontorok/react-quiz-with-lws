@@ -7,10 +7,10 @@ import Form from "./Form";
 import TextInput from "./TextInput";
 
 const initialState = {
-  username: "nasir",
-  email: "nishgro@gmail.com",
-  password: "nasir123",
-  confirmPassword: "nasir123",
+  username: "",
+  email: "",
+  password: "",
+  confirmPassword: "",
   agree: true,
 };
 
